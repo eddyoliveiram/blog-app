@@ -19,7 +19,7 @@ users_table = table(
 def upgrade():
     op.bulk_insert(users_table,
         [
-            {'id': 1, 'username': 'admin', 'email': 'admin@example.com', 'hashed_password': 'admin'}
+            {'id': 0, 'username': 'admin', 'email': 'admin@example.com', 'hashed_password': 'admin'}
         ]
     )
 

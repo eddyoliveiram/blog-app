@@ -8,3 +8,4 @@ bcrypt
 python-jose
 pytest
 pytest-asyncio
+email-validator
